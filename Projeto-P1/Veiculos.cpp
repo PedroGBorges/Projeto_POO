@@ -16,12 +16,6 @@ Veiculos::Veiculos(int tamanho_x, int tamanho_y)
 	fabrica = true;
 }
 
-
-Veiculos::~Veiculos()
-{
-}
-
-
 int Veiculos::getX()
 {
 	return x;
@@ -70,8 +64,7 @@ void Veiculos::setVelocidade(int v)
 
 void Veiculos::move()
 {
-	/* movimenta o veículo aleatoriamente
-	   com velocidade v */
+	// Movimentacao Aleatoria Veiculo
 
 	Random rnd = Random();
 	int d = rnd.generate(1, 4);

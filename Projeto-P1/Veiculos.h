@@ -2,8 +2,7 @@
 class Veiculos
 {
 public:
-	Veiculos(int tamanho_x, int tamanho_y);
-	~Veiculos();
+	Veiculos(int tamanho_x, int tamanho_y);	
 	int getX();
 	int getY();
 	int getV();
@@ -21,4 +20,3 @@ protected:
 	string cor;
 	bool fabrica;
 };
-

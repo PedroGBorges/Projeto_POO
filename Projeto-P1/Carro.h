@@ -4,9 +4,7 @@ class Carro :
 	public Veiculos
 {
 public:
-	Carro(int x, int y);
-	~Carro();
+	Carro(int x, int y);	
 private:
 	int num_passageiros;
 };
-

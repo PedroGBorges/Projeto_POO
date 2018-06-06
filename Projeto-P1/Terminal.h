@@ -4,12 +4,10 @@
 class Terminal
 {
 public:
-	Terminal();
-	~Terminal();
+	Terminal();	
 	void dimensao();	
 	void setCursorPosition(int, int);
 private:
 	int x, y;
 	int w, h;
 };
-

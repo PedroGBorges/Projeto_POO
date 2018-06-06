@@ -16,12 +16,6 @@ Mundo::Mundo()
 	setMundo();
 }
 
-
-Mundo::~Mundo()
-{
-}
-
-
 int Mundo::get_tamanho_x()
 {
 	// retorma tamanho x
@@ -404,7 +398,8 @@ void Mundo::printMundo(int car_size, int truck_size, int bike_size)
 	
 	// Chama a classe Terminal "t1"
 	Terminal t1 = Terminal();
-		
+	
+	// Painel Contador
 	printf("      ");	
 	printf(" Carro: %d ", car_size);	
 	printf("Caminhao: %d ", truck_size);	

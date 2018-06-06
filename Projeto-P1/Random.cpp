@@ -6,12 +6,6 @@ Random::Random()
 {
 }
 
-
-Random::~Random()
-{
-}
-
-
 int Random::generate(int a, int b)
 {
 	// gera um número aleatório no intervalo (a,b)

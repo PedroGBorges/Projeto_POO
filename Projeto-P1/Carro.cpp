@@ -8,8 +8,3 @@ Carro::Carro(int x, int y) : Veiculos(x, y)
 	setVelocidade(2);
 	this->num_passageiros = num_passageiros;
 }
-
-
-Carro::~Carro()
-{
-}

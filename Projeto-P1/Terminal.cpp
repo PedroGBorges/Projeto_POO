@@ -11,11 +11,6 @@ Terminal::Terminal()
 	h = 745;
 }
 
-
-Terminal::~Terminal()
-{
-}
-
 // Construtor do Terminal
 void Terminal::dimensao()
 {	

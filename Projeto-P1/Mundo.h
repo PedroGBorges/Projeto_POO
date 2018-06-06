@@ -2,8 +2,7 @@
 class Mundo
 {
 public:
-	Mundo();
-	~Mundo();
+	Mundo();	
 	int get_tamanho_x();
 	int get_tamanho_y();
 	void resetMap();
@@ -28,4 +27,3 @@ private:
 	void setMundo();
 	void setObstaculo(int, int, int, int);
 };
-
